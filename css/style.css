@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&family=Red+Hat+Text:wght@500;700&display=swap');
+
+html {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: linear-gradient(180deg, #B02A2A 0%, #A21B1B 15.94%, rgba(255, 52, 52, 0.13) 100%);
+}
+
+h1 {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 76.3%;
+    letter-spacing: -0.03em;
+}
+
+.subtitol {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.06em;
+    color: #F7F7F7;
+}
+
+.learn-more {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 18px;
+    border-radius: 50px;
+    border: 0;
+    width: 211px;
+    height: 66px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 57px 24px 40px;
+    gap: 10px;
+}
+
+.musica {
+    background: rgba(0, 0, 0, 0.5);
+    width: 857px;
+    height: 221px;
+}
+
+.nom-canco {
+    width: 211px;
+    height: 15px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 76.3%;
+    letter-spacing: -0.03em;
+}
