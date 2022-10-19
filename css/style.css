@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&family=Red+Hat+Text:wght@500;700&display=swap');
 
-html {
+body {
     position: relative;
     width: 1440px;
     height: 1024px;
@@ -44,12 +44,6 @@ h1 {
     gap: 10px;
 }
 
-.musica {
-    background: rgba(0, 0, 0, 0.5);
-    width: 857px;
-    height: 221px;
-}
-
 .nom-canco {
     width: 211px;
     height: 15px;
@@ -60,3 +54,39 @@ h1 {
     line-height: 76.3%;
     letter-spacing: -0.03em;
 }
+
+.avicii {
+    border-radius: 20px;
+}
+
+.contenidor-flex-musica {
+    background: rgba(0, 0, 0, 0.5);
+    background-color: orange;
+    width: 857px;
+    height: 221px;
+    display: flex;
+}
+
+.contenidor-flex-princ {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenidor-flex-icons {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    width: 176px;
+}
+
+.rapero {
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    left: 788px;
+    top: 119px;
+}
+
+
+
