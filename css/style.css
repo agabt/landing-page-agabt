@@ -18,19 +18,18 @@ body {
 
 header {
     padding: 45px;
-    height: 60px;
 }
 
 .icon {
     margin-right: 1113px;
 }
 
-.menu > img {
+.menu>img {
     margin: 0px 19px 0px 19px;
     transition: all .2s ease-in-out;
 }
 
-.menu > img:hover {
+.menu>img:hover {
     transform: scale(1.3);
     cursor: pointer;
 }
@@ -72,10 +71,12 @@ h1 {
     width: 211px;
     height: 66px;
     background-color: black;
-    align-items: flex-start;
     padding: 24px 57px 24px 40px;
-    gap: 10px;
     text-align: center;
+}
+
+.explore-more:hover {
+    cursor: pointer;
 }
 
 .text {
@@ -111,45 +112,156 @@ h1 {
 .youtube {
     background-image: url(../assets/icons/ico-youtube.svg);
 }
-/*
-.nom-canco {
-    width: 211px;
-    height: 15px;
-    font-family: 'Red Hat Text';
+
+.body-right {
+    width: 883px;
+    height: 891px;
+    background-image: url(../assets/imgs/rapero.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.reproduccio {
+    background: rgba(0, 0, 0, 0.5);
+    width: 883px;
+    height: 221px;
+    margin-top: 670px;
+}
+
+.reproduccio>img {
+    border-radius: 20px;
+    margin-right: 25px;
+}
+
+.botons {
+    width: 505px;
+    flex-wrap: wrap;
+    margin-left: 2px;
+}
+
+.botons > button:hover {
+    cursor: pointer;
+}
+
+.reproduccio h6 {
+    font-family: "Red Hat Text";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 76.3%;
+    line-height: 15.26px;
     letter-spacing: -0.03em;
+    margin-top: 30px;
+    margin-right: 290px;
 }
 
-.avicii {
-    border-radius: 20px;
+.bot-abans {
+    background-image: url("../assets/icons/abans-seguent.svg");
+    background-size: cover;
+    background-position: center;
+    width: 11px;
+    height: 22px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 99px 18px 99px 18px;
 }
 
-.contenidor-flex-musica {
-    background: rgba(0, 0, 0, 0.5);
-    background-color: orange;
-    width: 857px;
-    height: 221px;
-    
+.bot-aleatori {
+    background-image: url("../assets/icons/aleatori.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    border: none;
+    margin-right: 37px;
+    margin-top: 20px;
 }
 
-.contenidor-flex-princ {
-    background-color: blue;
+.bot-enrere {
+    background-image: url("../assets/icons/Envant-enrere.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 24px;
+    background-color: transparent;
+    border: none;
+    margin-right: 37px;
+    margin-top: 20px;
 }
 
-.contenidor-flex-icons {
-    background-color: green; 
-    justify-content: space-between;
-    width: 176px;
+.bot-reproduir {
+    background-image: url("../assets/icons/play-button.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 92px;
+    width: 92px;
+    background-color: transparent;
+    border: none;
 }
 
-.rapero {
-    position: absolute;
-    left: 788px;
-    top: 119px;
+.bot-envant {
+    background-image: url("../assets/icons/Envant-enrere.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 24px;
+    background-color: transparent;
+    border: none;
+    margin-left: 37px;
+    margin-top: 20px;
+    transform: rotate(-180deg);
+}
+
+.bot-repetir {
+    background-image: url("../assets/icons/repetir.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    border: none;
+    margin-left: 37px;
+    margin-top: 20px;
+}
+
+.bot-volum {
+    background-image: url("../assets/icons/volum.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    border: none;
+    margin-left: 37px;
+    margin-top: 20px;
+}
+
+.bot-seguent {
+    background-image: url("../assets/icons/abans-seguent.svg");
+    background-size: cover;
+    background-position: center;
+    width: 11px;
+    height: 22px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 80px;
+    transform: rotate(-180deg);
 }
 
 
-
+.barra-progres {
+    background-image: url("../assets/icons/reproduit.png");
+    background-size: cover;
+    background-position: center;
+    width: 472px;
+    height: 6px;
+}
